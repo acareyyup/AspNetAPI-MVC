@@ -10,7 +10,7 @@ namespace NLayer.Repository.Repositories
         {
         }
 
-        public async Task<List<Product>> GetProductsWitCategory()
+        public async Task<List<Product>> GetProductsWitCategoryAsync()
         {
             //Eager Loading
             return await _context.Products.Include(p => p.Category).ToListAsync();

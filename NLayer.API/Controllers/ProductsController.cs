@@ -65,7 +65,7 @@ namespace NLayer.API.Controllers
         public async Task<IActionResult> GetProductsWithCategory()
         {
 
-            return CreateActionResult(await _productService.GetProductsWitCategory());
+            return CreateActionResult(await _productService.GetProductsWitCategoryAsync());
         }
 
     }
