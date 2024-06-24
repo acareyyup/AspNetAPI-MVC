@@ -1,0 +1,5 @@
+API=>https://localhost:7232/ NLayer.API
+API=>https://localhost:44312 ISS Express
+
+MVC=>https://localhost:7125/ NLayer.Web
+MVC=>https://localhost:44310 ISS Express
