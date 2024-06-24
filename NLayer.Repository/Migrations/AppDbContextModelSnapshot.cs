@@ -105,7 +105,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 6, 23, 16, 46, 35, 68, DateTimeKind.Local).AddTicks(1791),
+                            CreatedDate = new DateTime(2024, 6, 24, 17, 51, 14, 876, DateTimeKind.Local).AddTicks(1593),
                             Name = "Kalem 1",
                             Price = 100m,
                             Stock = 20
@@ -114,7 +114,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 6, 23, 16, 46, 35, 68, DateTimeKind.Local).AddTicks(1800),
+                            CreatedDate = new DateTime(2024, 6, 24, 17, 51, 14, 876, DateTimeKind.Local).AddTicks(1603),
                             Name = "Kalem 2",
                             Price = 200m,
                             Stock = 30
@@ -123,7 +123,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 3,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 6, 23, 16, 46, 35, 68, DateTimeKind.Local).AddTicks(1801),
+                            CreatedDate = new DateTime(2024, 6, 24, 17, 51, 14, 876, DateTimeKind.Local).AddTicks(1604),
                             Name = "Kalem 3",
                             Price = 600m,
                             Stock = 60
@@ -132,7 +132,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 6, 23, 16, 46, 35, 68, DateTimeKind.Local).AddTicks(1801),
+                            CreatedDate = new DateTime(2024, 6, 24, 17, 51, 14, 876, DateTimeKind.Local).AddTicks(1605),
                             Name = "Kitap 1",
                             Price = 600m,
                             Stock = 60
@@ -141,7 +141,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 5,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 6, 23, 16, 46, 35, 68, DateTimeKind.Local).AddTicks(1802),
+                            CreatedDate = new DateTime(2024, 6, 24, 17, 51, 14, 876, DateTimeKind.Local).AddTicks(1606),
                             Name = "Kitap 2",
                             Price = 6600m,
                             Stock = 320
