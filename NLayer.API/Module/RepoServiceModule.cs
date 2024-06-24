@@ -25,6 +25,8 @@ namespace NLayer.API.Modules
 
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
 
+            builder.RegisterType<ProductServiceWithDto>().As<IProductServiceWithDto>().InstancePerLifetimeScope();
+
             var apiAssembly = Assembly.GetExecutingAssembly();
             var repoAssembly = Assembly.GetAssembly(typeof(AppDbContext));
             var serviceAssembly = Assembly.GetAssembly(typeof(MapProfile));
